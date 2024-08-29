@@ -34,6 +34,13 @@ jobs:
           curl -sLo allure.zip https://github.com/allure-framework/allure2/releases/download/2.13.8/allure-2.13.8.zip
           sudo unzip -d /opt allure.zip
           sudo ln -s /opt/allure-2.13.8/bin/allure /usr/bin/allure
+    - name: Upload APK to BrowserStack
+      run: |
+          curl -u "${{ secrets.BROWSERSTACK_USER }}:${{ secrets.BROWSERSTACK_KEY }}" \
+          -X POST "https://api-cloud.browserstack.com/app-automate/upload" \
+          -F "file=@/path/to/your/apk/file.apk" \
+          -F "custom_id=TestApp" \
+          -F "ios_keychain_support=true"
     - name: Copy Allure data from previous runs
       run: cp -r allure-results allure-results-previous || true
     - name: Create Allure report
