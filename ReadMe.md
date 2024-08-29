@@ -1,7 +1,7 @@
 # webdriver_browserstack_tests
 
 ## SUMMARY
-This is the repo of test cases for the saucedemo.com website, including cases for the register and login, sorting, cart and checkout functionality, automated with the webdriver framework and using the allure as reporter and github actions for CI/CD. 
+This is the repo of test cases for the Android-NativeDemoApp-0.4.0 native applications, including cases for the register, swipe and drag functionality, automated with the webdriver framework and using the browserstack for modulating android devices (pixel 3 and samsung galaxy s22), allure as reporter and github actions for CI/CD. 
 
 ## REQUIREMENTS
 - Node.js v20.14.10 or higher
