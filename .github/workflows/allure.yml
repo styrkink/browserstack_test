@@ -24,7 +24,7 @@ jobs:
       run: npm ci
 
     - name: Run wdio tests
-      run: npm run test:prod
+      run: npm run test:pixel
       continue-on-error: true
 
     - name: Install Allure CLI
