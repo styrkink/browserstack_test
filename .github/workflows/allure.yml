@@ -26,7 +26,7 @@ jobs:
       run: |
           curl -u "${{ secrets.BROWSERSTACK_USER }}:${{ secrets.BROWSERSTACK_KEY }}" \
           -X POST "https://api-cloud.browserstack.com/app-automate/upload" \
-          -F "file=@/path/to/your/apk/file.apk" \
+          -F "file=@/Android-NativeDemoApp-0.4.0.apk" \
           -F "custom_id=TestApp" \
           -F "ios_keychain_support=true"
 
