@@ -1,27 +1,47 @@
-# Repo with test task for browserstack1
+# webdriver_browserstack_tests
 
-## Task
-1.  Clone repo and install all dependencies.
-2.  Upload app Android-NativeDemoApp to browserstack using API ([Link](https://www.browserstack.com/docs/app-automate/api-reference/appium/apps#upload-an-app)) and add unique ID to the ```wdio.conf.js```.
-3.  Create test 5 test cases (locators can be found using [Appium Inspector](https://github.com/appium/appium-inspector/releases) that conected to the Browserstack account).
-4.  Create workflow with using secrets (for user and key in capabilities)([description of secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets)).
-5.  Create 2 config files (with different devices)
+## SUMMARY
+This is the repo of test cases for the saucedemo.com website, including cases for the register and login, sorting, cart and checkout functionality, automated with the webdriver framework and using the allure as reporter and github actions for CI/CD. 
 
-## Tips
-1.  You can create multiple accounts in browserstack (demo trial - 100 minutes).
-2.  First of all find all necessary locators.
-3.  In the Appium Inspector at the header choose ```Select Cloud Providers -> Browserstack``` and into ```JSON Representation``` insert the next:
-```
-{
-  "appium:protocol": "https",
-  "appium:hostname": "hub.browserstack.com",
-  "appium:path": "/wd/hub",
-  "appium:maxInstances": 1,
-  "appium:app": "Your App ID is here",
-  "appium:os_version": "9.0",
-  "appium:deviceName": "Google Pixel 3",
-  "platformName": "Android",
-  "appium:autoAcceptAlerts": "true",
-  "appium:browserstack.appium_version": "1.22.0"
-}
-```
+## REQUIREMENTS
+- Node.js v20.14.10 or higher
+- wdio/allure-reporter v9.0.4 or higher
+- allure-commandline v2.30.0
+- wdio/cli v8.1.0 or higher
+- wdio/local-runner v8.1.0 or higher
+- wdio/mocha-framework v8.1.0 or higher
+- webdriverio v8.1.0 or higher
+- dotenv v16.4.5 or higher
+- Faker.js v8.4.1 or higher
+
+## Steps to Install
+### 1. Clone the repository
+`git clone https://github.com/styrkink/browserstack_test.git
+cd your-repo`
+### 2. Install dependencies
+`npm install`
+
+
+## Steps to Launch
+### 1. Run all tests in pixel 3 evnironment 
+`npm run test:pixel`
+### 2. Run all tests in samsung galaxy S22 evnironment 
+`npm run test:samsung`
+### 3. Run swipe test cases in pixel environment
+`npm run test:pixel:swipe`
+### 3. Run drag test cases in pixel environment
+`npm run test:pixel:drag`
+### 3. Run signup test cases in pixel environment
+`npm run test:pixel:signup`
+### 3. Run swipe test cases in samsung environment
+`npm run test:samsung:swipe`
+### 3. Run drag test cases in samsung environment
+`npm run test:samsung:drag`
+### 3. Run signup test cases in samsung environment
+`npm run test:samsung:signup`
+
+
+## Steps to view the report
+### 1. Run your tests with any command
+### 2. Generate report
+`npm run report`
