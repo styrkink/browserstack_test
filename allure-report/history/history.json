@@ -1,0 +1,98 @@
+{
+  "45852c3d378db6750ad1e5a2aadda35c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "937790c18621ac88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725262664376,
+        "stop" : 1725262673679,
+        "duration" : 9303
+      }
+    } ]
+  },
+  "dd0ddfab8f9ee68cfa049e07404ae84f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b0268dd27407c28f",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Swipes testing Should display webdriver logo and text \"You found me\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/home/runner/work/browserstack_test/browserstack_test/test/specs/swipe.spec.js)",
+      "time" : {
+        "start" : 1725262595790,
+        "stop" : 1725262655792,
+        "duration" : 60002
+      }
+    } ]
+  },
+  "5d71e1861e1be70f5ae57b6ab4840781" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a97cd4b3159f518f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725262642074,
+        "stop" : 1725262653078,
+        "duration" : 11004
+      }
+    } ]
+  },
+  "84913f9c25be54e6a534ab74b7025ebf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e2d8e0c94b5a3f61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725262654376,
+        "stop" : 1725262662998,
+        "duration" : 8622
+      }
+    } ]
+  },
+  "b77c6c2735e98d1fd05748b22e29511d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9f69d96c3d2bb0f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725262369907,
+        "stop" : 1725262377766,
+        "duration" : 7859
+      }
+    } ]
+  }
+}

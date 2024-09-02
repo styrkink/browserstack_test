@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Timeout of 60000ms exceeded. The execution in the test \"Swipes testing Should display webdriver logo and text \"You found me\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/home/runner/work/browserstack_test/browserstack_test/test/specs/swipe.spec.js)",
+      "children" : [ {
+        "name" : "Should display webdriver logo and text \"You found me\"",
+        "uid" : "b0268dd27407c28f",
+        "parentUid" : "dd606c227dc53e95a9892bacfa40b5af",
+        "status" : "broken",
+        "time" : {
+          "start" : 1725262595790,
+          "stop" : 1725262655792,
+          "duration" : 60002
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "dd606c227dc53e95a9892bacfa40b5af"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

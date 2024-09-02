@@ -1,0 +1,86 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : ".home.runner.work.browserstack_test.browserstack_test.test.specs",
+    "children" : [ {
+      "name" : "drag.spec.js",
+      "children" : [ {
+        "name" : "Should drag and drop image\"",
+        "uid" : "9f69d96c3d2bb0f",
+        "parentUid" : "f828737e8f8c594a18a3384522ace8f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725262369907,
+          "stop" : 1725262377766,
+          "duration" : 7859
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "drag.spec.js"
+    }, {
+      "name" : "swipe.spec.js",
+      "children" : [ {
+        "name" : "Should display webdriver logo and text \"You found me\"",
+        "uid" : "b0268dd27407c28f",
+        "parentUid" : "e29b5b04757b756af7467901222659f0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1725262595790,
+          "stop" : 1725262655792,
+          "duration" : 60002
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "swipe.spec.js"
+    }, {
+      "name" : "signUp.spec.js",
+      "children" : [ {
+        "name" : "Should sign up with valid data",
+        "uid" : "a97cd4b3159f518f",
+        "parentUid" : "e75cf2b6ca84c1122899445150867644",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725262642074,
+          "stop" : 1725262653078,
+          "duration" : 11004
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      }, {
+        "name" : "Should not sign up without password confirmation",
+        "uid" : "e2d8e0c94b5a3f61",
+        "parentUid" : "e75cf2b6ca84c1122899445150867644",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725262654376,
+          "stop" : 1725262662998,
+          "duration" : 8622
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      }, {
+        "name" : "Should not sign up with empty email",
+        "uid" : "937790c18621ac88",
+        "parentUid" : "e75cf2b6ca84c1122899445150867644",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725262664376,
+          "stop" : 1725262673679,
+          "duration" : 9303
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "signUp.spec.js"
+    } ],
+    "uid" : ".home.runner.work.browserstack_test.browserstack_test.test.specs"
+  } ],
+  "name" : "packages"
+}

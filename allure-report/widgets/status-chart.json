@@ -1,0 +1,51 @@
+[ {
+  "uid" : "b0268dd27407c28f",
+  "name" : "Should display webdriver logo and text \"You found me\"",
+  "time" : {
+    "start" : 1725262595790,
+    "stop" : 1725262655792,
+    "duration" : 60002
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "937790c18621ac88",
+  "name" : "Should not sign up with empty email",
+  "time" : {
+    "start" : 1725262664376,
+    "stop" : 1725262673679,
+    "duration" : 9303
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f69d96c3d2bb0f",
+  "name" : "Should drag and drop image\"",
+  "time" : {
+    "start" : 1725262369907,
+    "stop" : 1725262377766,
+    "duration" : 7859
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a97cd4b3159f518f",
+  "name" : "Should sign up with valid data",
+  "time" : {
+    "start" : 1725262642074,
+    "stop" : 1725262653078,
+    "duration" : 11004
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e2d8e0c94b5a3f61",
+  "name" : "Should not sign up without password confirmation",
+  "time" : {
+    "start" : 1725262654376,
+    "stop" : 1725262662998,
+    "duration" : 8622
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

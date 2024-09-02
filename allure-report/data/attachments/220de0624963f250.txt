@@ -1,0 +1,8 @@
+{
+  "message": "An element could not be located on the page using the given search parameters.",
+  "sessionId": "1b81fd4c3a1debae8afa81b41cfcd5d18fb097b0",
+  "capabilities": {
+    "message": "An element could not be located on the page using the given search parameters.",
+    "sessionId": "1b81fd4c3a1debae8afa81b41cfcd5d18fb097b0"
+  }
+}

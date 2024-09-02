@@ -1,0 +1,82 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Drag and drop testing",
+    "children" : [ {
+      "name" : "Should drag and drop image\"",
+      "uid" : "9f69d96c3d2bb0f",
+      "parentUid" : "11425bf2bc25f958ef986dd9f9b650fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725262369907,
+        "stop" : 1725262377766,
+        "duration" : 7859
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    } ],
+    "uid" : "11425bf2bc25f958ef986dd9f9b650fe"
+  }, {
+    "name" : "Swipes testing",
+    "children" : [ {
+      "name" : "Should display webdriver logo and text \"You found me\"",
+      "uid" : "b0268dd27407c28f",
+      "parentUid" : "cc52055a561c1e031c0c14e1cf1e468f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1725262595790,
+        "stop" : 1725262655792,
+        "duration" : 60002
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    } ],
+    "uid" : "cc52055a561c1e031c0c14e1cf1e468f"
+  }, {
+    "name" : "Sign up test cases",
+    "children" : [ {
+      "name" : "Should sign up with valid data",
+      "uid" : "a97cd4b3159f518f",
+      "parentUid" : "c55ced7b89510cd544eeda93608a89b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725262642074,
+        "stop" : 1725262653078,
+        "duration" : 11004
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "Should not sign up without password confirmation",
+      "uid" : "e2d8e0c94b5a3f61",
+      "parentUid" : "c55ced7b89510cd544eeda93608a89b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725262654376,
+        "stop" : 1725262662998,
+        "duration" : 8622
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "Should not sign up with empty email",
+      "uid" : "937790c18621ac88",
+      "parentUid" : "c55ced7b89510cd544eeda93608a89b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725262664376,
+        "stop" : 1725262673679,
+        "duration" : 9303
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    } ],
+    "uid" : "c55ced7b89510cd544eeda93608a89b8"
+  } ],
+  "name" : "behaviors"
+}

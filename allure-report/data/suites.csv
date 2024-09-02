@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Mon Sep 02 07:36:35 UTC 2024","Mon Sep 02 07:37:35 UTC 2024","60002","","Swipes testing","","","","Should display webdriver logo and text ""You found me""",""
+"passed","Mon Sep 02 07:37:44 UTC 2024","Mon Sep 02 07:37:53 UTC 2024","9303","","Sign up test cases","","","","Should not sign up with empty email",""
+"passed","Mon Sep 02 07:32:49 UTC 2024","Mon Sep 02 07:32:57 UTC 2024","7859","","Drag and drop testing","","","","Should drag and drop image""",""
+"passed","Mon Sep 02 07:37:22 UTC 2024","Mon Sep 02 07:37:33 UTC 2024","11004","","Sign up test cases","","","","Should sign up with valid data",""
+"passed","Mon Sep 02 07:37:34 UTC 2024","Mon Sep 02 07:37:42 UTC 2024","8622","","Sign up test cases","","","","Should not sign up without password confirmation",""
