@@ -10,6 +10,7 @@ describe("Sign up test cases", () => {
     await driver.closeApp();
     await driver.launchApp();
   });
+  
   it("Should sign up with valid data", async () => {
     await SignUpPage.openLoginTab();
     await SignUpPage.openSignUpTab();
